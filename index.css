@@ -1,0 +1,109 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* FORCE BLACK BACKGROUND */
+body,
+html {
+    background-color: #030303 !important;
+    background-image: none !important;
+    /* Kill any gradients */
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    color: #F2F2F2;
+}
+
+/* Ensure no weird pseudo-elements create the purple haze */
+body::before,
+body::after {
+    display: none !important;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #030303;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #333;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lavishly+Yours&display=swap');
+
+/* Font Imports handled in HTML, but ensuring defaults */
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.font-lavishly {
+    font-family: 'Lavishly Yours', cursive;
+}
+
+.font-monoton {
+    font-family: 'Monoton', cursive;
+}
+
+.font-bungee {
+    font-family: 'Bungee Shade', cursive;
+}
+
+.font-protest {
+    font-family: 'Protest Guerrilla', sans-serif;
+}
+
+.font-black-ops {
+    font-family: 'Black Ops One', system-ui;
+}
+
+.font-emblema {
+    font-family: 'Emblema One', cursive;
+}
+
+/* Fiery Gradient */
+/* Fiery Gradient */
+.text-fiery-gradient {
+    background: linear-gradient(to right, #ff7c5c, #ff6d4a, #ff552c, #ff3e0f);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+/* Electric Blue Gradient */
+.text-electric-blue-gradient {
+    background: linear-gradient(to right, #7e7fff, #5e60ff, #3638ff, #1214fb);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+/* Hero Name Gradient */
+.text-orange-blue-gradient {
+    background-image: radial-gradient(circle, #ff0000, #ff284d, #ff507e, #ed72a4, #d68eba);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
+
+/* Sticky Pin Utility */
+.sticky-pin-wrapper {
+    height: 300vh;
+    /* Extra height for scrolling while pinned */
+    position: relative;
+    z-index: 20;
+}
+
+/* Hide Unicorn Studio Watermark */
+a[href*="unicorn.studio"] {
+    display: none !important;
+}
