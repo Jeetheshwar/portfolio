@@ -1,20 +1,45 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Jeetheshwar Aalam - Portfolio 2025
 
-# Run and deploy your AI Studio app
+A premium, interactive portfolio website built for a Machine Learning Engineer/Architect. This project features high-end animations, a custom design system, and a focus on "Awwwards-style" user experience.
 
-This contains everything you need to run your app locally.
+## 🚀 Live Demo
+[https://jeetheshwar-portfolio.vercel.app](https://jeetheshwar-portfolio.vercel.app) *(Coming Soon / Replace with actual link)*
 
-View your app in AI Studio: https://ai.studio/apps/drive/1mbyTjhMuvysaGr9-k3vKq4eDE0_HQtK3
+## 🛠 Tech Stack
+-   **Core:** React 19 (Vite)
+-   **Styling:** Tailwind CSS (Custom Typography & Gradients)
+-   **Animations:** GSAP (ScrollTrigger, Flip), Custom CSS Keyframes
+-   **Language:** TypeScript
+-   **Icons:** Lucide React
 
-## Run Locally
+## ✨ Key Features
+-   **Premium Preloader:** "Maximalist Counter" with curtain reveal.
+-   **Hero Section:** 3D-style video background with custom radial gradient text.
+-   **Smooth Scroll:** Implementation via `lenis` (optional) or native smooth scrolling.
+-   **Interactive Work Gallery:** Mouse-following gradient reveal on project titles.
+-   **Mobile Responsive:** Fully adaptive layout for all devices.
 
-**Prerequisites:**  Node.js
+## 💻 Running Locally
 
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/Jeetheshwar/portfolio.git
+    cd portfolio
+    ```
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
+
+3.  **Start the development server:**
+    ```bash
+    npm run dev
+    ```
+
+## 🎨 Typography
+-   **Titles:** *Black Ops One*, *Emblema One*, *Bungee Shade*
+-   **Body:** *Inter*, *Space Mono*
+
+---
+© 2025 Jeetheshwar Aalam. All rights reserved.
